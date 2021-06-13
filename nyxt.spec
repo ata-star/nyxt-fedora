@@ -23,7 +23,9 @@ BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(webkit2gtk-4.0)
 
 %description
-Nyxt is a keyboard-oriented, infinitely extensible web browser designed for power users. Conceptually inspired by Emacs and Vim, it has familiar key-bindings (Emacs, vi, CUA), and is fully configurable in Lisp.
+Nyxt is a keyboard-oriented, infinitely extensible web browser designed for
+power users. Conceptually inspired by Emacs and Vim, it has familiar
+key-bindings (Emacs, vi, CUA), and is fully configurable in Lisp.
 
 %prep
 %autosetup
@@ -40,3 +42,8 @@ make PREFIX=/usr DESTDIR=$RPM_BUILD_ROOT LISP_FLAGS=%{lisp_flags} install
 /usr/bin/nyxt
 /usr/share/applications/nyxt.desktop
 /usr/share/icons/hicolor/*/apps/nyxt.png
+
+
+%changelog
+* Sun Jun 13 2021 teervo <teervo_at_protonmail.com>
+- initial release
