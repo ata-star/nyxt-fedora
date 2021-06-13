@@ -18,7 +18,7 @@ Source1:        https://github.com/quicklisp/quicklisp-client/tarball/%{quicklis
 
 BuildRequires:  gcc-c++ git make
 BuildRequires:  libfixposix-devel sbcl
-BuildRequires:  pkgconfig(glib-2.0)
+BuildRequires:  pkgconfig(gdk-pixbuf-2.0) pkgconfig(glib-2.0)
 
 %description
 Nyxt is a keyboard-oriented, infinitely extensible web browser designed for power users. Conceptually inspired by Emacs and Vim, it has familiar key-bindings (Emacs, vi, CUA), and is fully configurable in Lisp.
