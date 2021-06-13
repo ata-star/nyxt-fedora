@@ -16,7 +16,7 @@ URL:            https://nyxt.atlas.engineer/
 Source0:        https://github.com/atlas-engineer/%{name}/archive/refs/tags/%{version}.tar.gz
 Source1:        https://github.com/quicklisp/quicklisp-client/tarball/%{quicklisp_commit}
 
-BuildRequires:  sbcl libfixposix-devel git make
+BuildRequires:  sbcl libfixposix-devel gcc-c++ git make
 
 %description
 Nyxt is a keyboard-oriented, infinitely extensible web browser designed for power users. Conceptually inspired by Emacs and Vim, it has familiar key-bindings (Emacs, vi, CUA), and is fully configurable in Lisp.
