@@ -18,6 +18,7 @@ Source1:        https://github.com/quicklisp/quicklisp-client/tarball/%{quicklis
 
 BuildRequires:  gcc-c++ git make
 BuildRequires:  libfixposix-devel sbcl
+BuildRequires:  pkgconfig(cairo)
 BuildRequires:  pkgconfig(gdk-pixbuf-2.0) pkgconfig(glib-2.0)
 
 %description
