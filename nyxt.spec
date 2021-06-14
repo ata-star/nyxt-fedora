@@ -1,4 +1,5 @@
 %global         debug_package %{nil}
+%global         __strip       /bin/true
 
 Name:           nyxt
 Version:        2.0.0
