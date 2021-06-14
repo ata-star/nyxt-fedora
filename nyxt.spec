@@ -22,6 +22,7 @@ BuildRequires:  libfixposix-devel sbcl
 BuildRequires:  pkgconfig(gdk-pixbuf-2.0)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(webkit2gtk-4.0)
+Requires:       libfixposix
 
 %description
 Nyxt is a keyboard-oriented, infinitely extensible web browser designed for
