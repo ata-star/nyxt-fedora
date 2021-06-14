@@ -3,7 +3,7 @@
 
 Name:           nyxt
 Version:        2.0.0
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Keyboard-oriented, infinitely extensible web browser
 
 %global quicklisp_commit b525ae5
