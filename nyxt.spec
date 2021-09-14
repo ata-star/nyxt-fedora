@@ -2,8 +2,8 @@
 %global         __strip       /bin/true
 
 Name:           nyxt
-Version:        2.0.0
-Release:        2%{?dist}
+Version:        2.1.1
+Release:        1%{?dist}
 Summary:        Keyboard-oriented, infinitely extensible web browser
 
 %global quicklisp_commit b525ae5
@@ -50,5 +50,8 @@ make PREFIX=/usr DESTDIR=$RPM_BUILD_ROOT LISP_FLAGS=%{lisp_flags} install
 
 
 %changelog
+* Wed Sep 14 2021 teervo <teervo_at_protonmail.com>
+- version bump
 * Sun Jun 13 2021 teervo <teervo_at_protonmail.com>
 - initial release
+
