@@ -2,7 +2,7 @@
 %global         __strip       /bin/true
 
 Name:           nyxt
-Version:        2.2.0
+Version:        2.2.3
 Release:        1%{?dist}
 Summary:        Keyboard-oriented, infinitely extensible web browser
 
